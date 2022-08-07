@@ -184,8 +184,6 @@ create_aliens()
 def draw_text(text,x,y):
     draw_text = FONT1.render(text, 1, (255, 255, 255))
     screen.blit(draw_text , (x , y))
-def cheaty_cheat():
-    pass
 def get_HighScore():
     with open("highscore.txt","r") as f:
         return f.read()
